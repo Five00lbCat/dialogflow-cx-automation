@@ -1,0 +1,67 @@
+# Sensitive files
+*.json
+!config.example.json
+!package.json
+service-account.json
+config.json
+
+# API Keys and credentials
+.env
+*.key
+*.pem
+*.p12
+
+# Personal data
+csv_files/*.csv
+!example.csv
+json_output/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/*.txt
+automation_report_*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test files
+test_output/
+test_files/
+*.test.json
+*.test.csv
+
+# Backup files
+*_backup.py
+*_old.py
+backup*/

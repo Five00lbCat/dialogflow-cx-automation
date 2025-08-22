@@ -1,0 +1,11 @@
+{
+  "service_account": "./service-account.json",
+  "project_id": "your-project-id",
+  "location": "us-central1",
+  "agent_id": "your-agent-id",
+  "dispatcher_url": "https://your-dispatcher-url/dispatcher",
+  "dispatcher_header": "X-Dispatcher-Secret=your-secret",
+  "input_dir": "./csv_files",
+  "json_dir": "./json_output",
+  "upload_delay": 2
+}

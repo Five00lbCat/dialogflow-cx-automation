@@ -1,0 +1,6 @@
+Page Name,Intent Name,Trigger Type & User Example,Bot Prompt,Next Page / Transition,Parameter Set,Webhook Action,Suggested Chips
+WelcomePage,start_intent,Intent: User says 'help',Welcome! How can I help you today?,MainMenuPage,user_type=student,log_session_start,"Get Started
+Learn More"
+MainMenuPage,option1_intent,Intent: User selects option 1,Here are your options,OptionsPage,__,__,"Option A
+Option B"
+EndPage,__,__,Thank you for using our service!,__,__,log_session_end,__
