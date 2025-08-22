@@ -1,7 +1,7 @@
 # Dialogflow CX Bulk Flow Automation
 
 
-A production-ready automation system that converts CSV-formatted conversation flows into fully configured Dialogflow CX agents. Designed to eliminate hundreds of hours of manual configuration work, the system provides error-tolerant, scalable infrastructure for conversational AI deployment.
+A production-ready automation system that converts CSV-formatted conversations into fully configured Dialogflow CX flows. Designed to eliminate hundreds of hours of manual configuration work, the system provides error-tolerant, scalable infrastructure for conversational AI deployment.
 
 
 ---
